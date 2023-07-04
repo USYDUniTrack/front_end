@@ -4,6 +4,7 @@ import { Header } from './Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UnitDescription from './component/UnitDescription';
 import NavigationBar from './component/NavigationBar';
+import Reviews from './component/Reviews';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <div className='centerContentWrapper'>
           <UnitDescription />
+          <Reviews/>
         </div>
         <div className='rightNavigationWrapper'>
 

@@ -47,7 +47,6 @@ body {
 
 .UnitDescriptionSemester {
   font-size: 15px;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: 0em;
   font-weight: 700;
@@ -189,7 +188,19 @@ body {
   flex-direction: row;
   gap: 56px;
 }
+
 .centerContentWrapper{
-max-width: 729px ;
+  max-width: 729px;
+  margin: 0 auto;
 }
+
+.Heading{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.MuiButton-outlined {
+  border-color: black !important;
+  color: #DD432B !important;
+  }
 /* layout css end */
