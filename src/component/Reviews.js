@@ -17,9 +17,8 @@ const Reviews = () => {
                         icon={<RectangleIcon fontSize="inherit"/>}
                         readOnly
                     />
-                    <p></p>
             </div>
-            <Button variant="outlined">Write a review</Button>
+            <Button variant="outlined" sx={{marginTop: 1, marginBottom: 1}}>Write a review</Button>
             <p></p>
             <Stack spacing={1}>
                 <Box component="span" sx={{ p: 2, border: 1, borderRadius: '15px' }}>
