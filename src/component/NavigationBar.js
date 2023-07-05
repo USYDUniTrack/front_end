@@ -14,17 +14,17 @@ const NavigationBar = () => {
                 <div className="NavigationBarMenu">
                     <Stack spacing={2}>
                         <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
-                            &nbsp;<BsFillCalendarEventFill size='35px'/>&nbsp;&nbsp;Timetable
+                            &nbsp;<BsFillCalendarEventFill size='25px'/>&nbsp;&nbsp;Timetable
                         </Button>
 
                         <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
-                            &nbsp;<BsFillCalendar2Fill size='35px'/>&nbsp;&nbsp;Degree Plan
+                            &nbsp;<BsFillCalendar2Fill size='25px'/>&nbsp;&nbsp;Degree Plan
                         </Button>
 
                         <Divider color='white' sx={{ borderBottomWidth: 2 }}/>
 
                         <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
-                            &nbsp;<AiFillRead size='35px'/>&nbsp;&nbsp;Units
+                            &nbsp;<AiFillRead size='30px'/>&nbsp;&nbsp;Units
                         </Button>
                     </Stack>
                 </div>

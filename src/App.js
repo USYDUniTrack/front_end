@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import UnitDescription from './component/UnitDescription';
 import NavigationBar from './component/NavigationBar';
 import Reviews from './component/Reviews';
+import VerticalLinearStepper from './component/steps';
 
 function App() {
   return (
@@ -17,12 +18,16 @@ function App() {
         <div className='centerContentWrapper'>
           <UnitDescription />
           <Reviews/>
+          
         </div>
         <div className='rightNavigationWrapper'>
-
+        <VerticalLinearStepper />
         </div>
+        
       </div>
+      
     </div>
+    
   );
 }
 
