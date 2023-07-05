@@ -95,16 +95,12 @@ body {
 
 /* NavigationBar css start */
 .NavigationBarWrapper {
-  width: 257px;
-  height: auto;
-  float: left;
   border-radius: 15px;
   background: rgba(221, 67, 43, 0.80);
   padding: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 30px;
 }
 
 .NavigationBarDetails {
@@ -139,37 +135,6 @@ body {
   line-height: normal;
 }
 
-.NavigationBarMenuItems {
-  padding: 4px;
-  color: #FFF;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  width: 100%;
-  text-align: left;
-  gap: 3px;
-  flex-direction: column;
-  display: flex;
-}
-
-.NavigationBarMenu {
-  float: left;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-}
-
-.NavigationBarMenuContent {
-  color: #FFF;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  padding: 10px;
-}
 .cardHrGap{
   margin: 23px 0px;
 }
@@ -191,7 +156,8 @@ body {
 
 .centerContentWrapper{
   max-width: 729px;
-  margin: 0 auto;
+  position: absolute;
+  top: 100px;
 }
 
 .Heading{
@@ -202,5 +168,5 @@ body {
 .MuiButton-outlined {
   border-color: black !important;
   color: #DD432B !important;
-  }
+}
 /* layout css end */

@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillCalendarEventFill, BsFillCalendar2Fill } from 'react-icons/bs';
+import { Button, Divider, Stack } from '@mui/material';
 import { AiFillRead } from 'react-icons/ai';
 
 
@@ -10,33 +11,23 @@ const NavigationBar = () => {
                 <span className="name">John Doe</span>
                 <span className="email">jdoe1234@uni.sydney.edu.au</span>
             </div>
-            <div className="NavigationBarMenuItems">
                 <div className="NavigationBarMenu">
-                    <div className="NavigationBarMenuIcon">
-                        <BsFillCalendarEventFill size={27} />
-                    </div>
-                    <div className="NavigationBarMenuContent">
-                        My Timetable
-                    </div>
+                    <Stack spacing={2}>
+                        <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
+                            &nbsp;<BsFillCalendarEventFill size='35px'/>&nbsp;&nbsp;Timetable
+                        </Button>
+
+                        <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
+                            &nbsp;<BsFillCalendar2Fill size='35px'/>&nbsp;&nbsp;Degree Plan
+                        </Button>
+
+                        <Divider color='white' sx={{ borderBottomWidth: 2 }}/>
+
+                        <Button sx={{fontSize: '17px', color: '#FFF', fontWeight: 600, textTransform: 'none', minWidth: '200px', justifyContent: 'left' }}> 
+                            &nbsp;<AiFillRead size='35px'/>&nbsp;&nbsp;Units
+                        </Button>
+                    </Stack>
                 </div>
-                <div className="NavigationBarMenu">
-                    <div className="NavigationBarMenuIcon">
-                        <BsFillCalendar2Fill size={27} />
-                    </div>
-                    <div className="NavigationBarMenuContent">
-                        Degree Plan
-                    </div>
-                </div>
-                <hr className="BottomBorderLine bgColorCardHr cardHrGap widthCardHR"/>
-                <div className="NavigationBarMenu">
-                    <div className="NavigationBarMenuIcon">
-                        <AiFillRead size={35} />
-                    </div>
-                    <div className="NavigationBarMenuContent">
-                        Units
-                    </div>
-                </div>
-            </div>
         </div>
     </>)
 }
