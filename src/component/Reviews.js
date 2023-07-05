@@ -1,6 +1,5 @@
 import React from "react";
 import { Typography, Rating, Button, Stack, Box } from '@mui/material';
-// import { TextareaAutosize } from '@mui/base'
 import RectangleIcon from '@mui/icons-material/Rectangle';
 
 const Reviews = () => {
@@ -20,7 +19,7 @@ const Reviews = () => {
                     />
                     <p></p>
             </div>
-            <Button variant="outlined" color="primary">Write a review</Button>
+            <Button variant="outlined">Write a review</Button>
             <p></p>
             <Stack spacing={1}>
                 <Box component="span" sx={{ p: 2, border: 1, borderRadius: '15px' }}>
