@@ -30,10 +30,6 @@ body {
 }
 
 .UnitDescriptionNotes span {
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 0em;
-  text-align: left;
   color: #DD432B;
 }
 
@@ -87,11 +83,6 @@ body {
   max-width: 729px;
   position: absolute;
   top: 120px;
-}
-
-.Heading{
-  font-size: 20px;
-  font-weight: 700;
 }
 
 .MuiButton-outlined {
