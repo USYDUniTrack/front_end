@@ -7,6 +7,8 @@ import NavigationBar from './component/NavigationBar';
 import Reviews from './component/Reviews';
 import VerticalLinearStepper from './component/steps';
 import UnitOutline from './component/UnitOutline';
+import Timetable from './component/Timetable';
+import Tree from './component/Tree';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         </div>
         <div className='centerContentWrapper'>
           <UnitDescription />
+          <Tree />
+          <Timetable />
           <UnitOutline />
           <Reviews />
         </div>
