@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Rating, Button, Stack, Box } from '@mui/material';
+import { Typography, Rating, Button, Stack, Box, Link } from '@mui/material';
 import RectangleIcon from '@mui/icons-material/Rectangle';
 
 const Reviews = () => {
@@ -8,17 +8,17 @@ const Reviews = () => {
         <hr className='BottomBorderLine' />
         <div className="OverallReviews">
             <Typography component="legend" sx={{fontWeight: 700, fontSize: '15px'}}>Average workload rated by students:</Typography>
-                <Rating
-                    name="read-only"
-                    value={5}
-                    size="large"
-                    sx={{color: "#DD432B"}}
-                    icon={<RectangleIcon fontSize="inherit"/>}
-                    readOnly
-                />
+            <Rating
+                name="read-only"
+                value={5}
+                size="large"
+                sx={{color: "#DD432B"}}
+                icon={<RectangleIcon fontSize="inherit"/>}
+                readOnly
+            />
         </div>
-        <Button variant="outlined" sx={{marginTop: 1, marginBottom: 1}}>Write a review</Button>
-        <p></p>
+        <Button variant="outlined" sx={{marginTop: 1, marginBottom: 2, fontSize: '15px', fontWeight: 700}}>Write a review</Button>
+        <Link href="#" underline="hover" sx={{float: 'right', textAlign: 'right', color: 'black', marginTop: 3.5, marginRight: 1}}>See all reviews</Link>
         <Stack spacing={1}>
             <Box component="span" sx={{ p: 2, border: 1, borderRadius: '15px' }}>
                 <Typography component="legend" sx={{fontWeight: 700, fontSize: '15px'}}>Average workload rated by students:</Typography>
@@ -48,6 +48,7 @@ const Reviews = () => {
                     <Typography sx={{opacity: '50%'}}>Anonymous, S1 2023</Typography>
             </Box>
         </Stack>
+        <br />
     </>)
 }
 
