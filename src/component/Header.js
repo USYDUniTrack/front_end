@@ -1,6 +1,6 @@
 import React from 'react'
 import {AppBar,IconButton, Toolbar, styled, Box, Typography} from '@mui/material';
-import logo from './usyd_logo.png';
+import logo from '../resources/usyd_logo.png';
 import SearchIcon from '@mui/icons-material/Search';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
@@ -17,7 +17,7 @@ export const Header = () => {
             }}
         >
             <StyledToolbar>
-                <img src={logo} alt="usyd logo" width={120}></img>
+                <img src={logo} alt="usyd logo" width={130}></img>
                 <Typography sx={{ flexGrow: 1}}>
                 </Typography>
                 <IconButton size="large" aria-label="search" color="black">
@@ -29,3 +29,4 @@ export const Header = () => {
   )
 }
 
+export default Header;
