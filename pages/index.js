@@ -1,12 +1,12 @@
-import { Head } from 'next/document';
+import Head from 'next/head';
 import Header from '../components/Header';
 import UnitDescription from '../components/UnitDescription';
 import NavigationBar from '../components/NavigationBar';
 import Reviews from '../components/Reviews';
 import VerticalLinearStepper from '../components/steps';
 import UnitOutline from '../components/UnitOutline';
-import Timetable from '../components/Timetable';
-import Tree from '../components/Tree';
+// import Timetable from '../components/Timetable';
+// import Tree from '../components/Tree';
 
 export default function Home() {
     return (
@@ -22,8 +22,8 @@ export default function Home() {
                     </div>
                     <div className='centerContentWrapper'>
                         <UnitDescription />
-                        <Tree />
-                        <Timetable />
+                        {/* <Tree />
+                        <Timetable /> */}
                         <UnitOutline />
                         <Reviews />
                     </div>

@@ -17,7 +17,7 @@ export const Header = () => {
             }}
         >
             <StyledToolbar>
-                <Image src="/usyd logo.png" alt="usyd logo image" width={130}/>
+                <Image src="/usyd logo.png" alt="usyd logo image" width={130} height={40}/>
                 <Typography sx={{ flexGrow: 1}}>
                 </Typography>
                 <IconButton size="large" aria-label="search" color="black">
